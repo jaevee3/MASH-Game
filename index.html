@@ -6,40 +6,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>MASH GAME</title>
   <link href="styles.css" rel="stylesheet">
-</head> 
+</head>
 
 <body>
   <h1>MASH</h1>
-  <p class="description">Fill in the blanks to see your future!</p>
+  <p class="description">Fill in the blanks to discover your futuristic life!</p>
   <form action="" method="post" id="mash">
     <div id="answers" class="hide">
-      <p>You will live in <span id="answer_1"></span>, work as a <span id="answer_2"></span>, and have a pet <span id="answer_3"></span>.</p>
+      <p>You will live in a <span id="answer_1"></span>, work as a <span id="answer_2"></span>, and your best friend will be a <span id="answer_3"></span>. Your daily commute will be in a <span id="answer_4"></span>!</p>
     </div>
     <div class="bucket">
       <div class="choice-bucket">
-        <h4 class="highlight">Where will you live?</h4>
-        <input type="text" name="san antonio[]">
-        <input type="text" name="houston[]">
-        <input type="text" name="austin[]">
-        <input type="text" name="el paso[]">
+        <h4 class="highlight">What type of home will you live in?</h4>
+        <input type="text" name="answer_1[]" value="Futuristic Mansion">
+        <input type="text" name="answer_1[]" value="Underwater Apartment">
+        <input type="text" name="answer_1[]" value="Moon Colony">
+        <input type="text" name="answer_1[]" value="Smart Eco-house">
       </div>
       <div class="choice-bucket">
-        <h4 class="highlight">Your future profession?</h4>
-        <input type="text" name="graphic designer[]">
-        <input type="text" name="web designer[]">
-        <input type="text" name="computer science[]">
-        <input type="text" name="digtial media[]">
+        <h4 class="highlight">What will your profession be?</h4>
+        <input type="text" name="answer_2[]" value="AI Developer">
+        <input type="text" name="answer_2[]" value="Space Pilot">
+        <input type="text" name="answer_2[]" value="Virtual Reality Designer">
+        <input type="text" name="answer_2[]" value="Sustainability Officer">
       </div>
       <div class="choice-bucket">
-        <h4 class="highlight">What will your pet be?</h4>
-        <input type="text" name="cat[]">
-        <input type="text" name="dog[]">
-        <input type="text" name="lizard[]">
-        <input type="text" name="snake[]">
+        <h4 class="highlight">Who will your best friend be?</h4>
+        <input type="text" name="answer_3[]" value="Talking Robot">
+        <input type="text" name="answer_3[]" value="Alien from Mars">
+        <input type="text" name="answer_3[]" value="Genetically Engineered Pet">
+        <input type="text" name="answer_3[]" value="Virtual Companion">
+      </div>
+      <div class="choice-bucket">
+        <h4 class="highlight">How will you commute daily?</h4>
+        <input type="text" name="answer_4[]" value="Hoverboard">
+        <input type="text" name="answer_4[]" value="Teleportation Pod">
+        <input type="text" name="answer_4[]" value="Flying Car">
+        <input type="text" name="answer_4[]" value="Hyperloop Train">
       </div>
     </div>
     <button type="submit" class="button-submit">Tell my fortune</button>
   </form>
 </body>
+
+</html>
+
 
 </html>
