@@ -23,7 +23,7 @@
     <form action="" method="post" id="mash">
       <!-- Hidden answers section -->
       <div id="answers" class="hide">
-        <p>Your future home is in <span id="answer_1"></span> with a <span id="answer_3"></span> as you pursue your career as a <span id="answer_2"></span> while owning a <span id="home"></span>.</p>
+        <p>Your future home is in a <span id="answer_1"></span> with a pet <span id="answer_3"></span> as you pursue your career as a <span id="answer_2"></span> while owning a <span id="home"></span>.</p>
       </div>
       
       <!-- Input section with labels for ADA compliance -->
@@ -32,19 +32,28 @@
         <!-- Home input with label -->
         <div class="choice-bucket">
           <label for="answer_1_input" class="highlight">What type of home will you live in?</label>
-          <input type="text" id="answer_1_input" name="answer_1" aria-label="Type of home" placeholder="Enter type of home">
+          <input type="text" id="answer_1_input" name="answer_1[]" aria-label="Type of home" placeholder="Enter type of home">
+          <input type="text" name="answer_1[]" placeholder="Enter type of home">
+          <input type="text" name="answer_1[]" placeholder="Enter type of home">
+          <input type="text" name="answer_1[]" placeholder="Enter type of home">
         </div>
         
         <!-- Job input with label -->
         <div class="choice-bucket">
           <label for="answer_2_input" class="highlight">What will your dream job be?</label>
-          <input type="text" id="answer_2_input" name="answer_2" aria-label="Dream job" placeholder="Enter your dream job">
+          <input type="text" id="answer_2_input" name="answer_2[]" aria-label="Dream job" placeholder="Enter your dream job">
+          <input type="text" name="answer_2[]" placeholder="Enter your dream job">
+          <input type="text" name="answer_2[]" placeholder="Enter your dream job">
+          <input type="text" name="answer_2[]" placeholder="Enter your dream job">
         </div>
         
         <!-- Pet input with label -->
         <div class="choice-bucket">
           <label for="answer_3_input" class="highlight">What kind of pet will you have?</label>
-          <input type="text" id="answer_3_input" name="answer_3" aria-label="Type of pet" placeholder="Enter type of pet">
+          <input type="text" id="answer_3_input" name="answer_3[]" aria-label="Type of pet" placeholder="Enter type of pet">
+          <input type="text" name="answer_3[]" placeholder="Enter type of pet">
+          <input type="text" name="answer_3[]" placeholder="Enter type of pet">
+          <input type="text" name="answer_3[]" placeholder="Enter type of pet">
         </div>
       </div>
 
@@ -58,4 +67,3 @@
   <!-- BODY SECTION ENDS -->
 
 </html>
-
